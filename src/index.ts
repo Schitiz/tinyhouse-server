@@ -21,7 +21,7 @@ const mount = async (app: Application) => {
   server.applyMiddleware({ app, path: '/api' });
 
   app.listen(process.env.PORT);
-  console.log(`App is running on http://localhost:${process.env.PORT}`);
+  console.log(`🚀 App is running on http://localhost:${process.env.PORT}`);
 };
 
 mount(express());
