@@ -94,7 +94,7 @@ export const userResolvers: IResolvers = {
         data.result = await cursor.toArray();
         return data;
       } catch (error) {
-        throw new Error(`Failed to query user bookings: ${error}`);
+        throw new Error(`Failed to query user listings: ${error}`);
       }
     },
   },
